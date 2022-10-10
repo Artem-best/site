@@ -616,6 +616,21 @@ body {
     resize: none;
 }
 
+.section12InputMessage::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #474544;
+}
+.section12InputMessage::-webkit-scrollbar {
+    /* border-radius: 8px; */
+    width: 12px; 
+}
+.section12InputMessage::-webkit-scrollbar-track {
+    background: rgba(192, 190, 190, 0.479);
+    border-radius: 0px 8px 8px 0px;        /* цвет дорожки */
+  }
+
+
+
 .section12InputMessage::placeholder {
     color: #5D5DC5;
     font-weight: 500;
