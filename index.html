@@ -17,19 +17,27 @@
 
                 <div class="header-line">
 
-                    <a href="#"><div class="header-logo">
-                        <img src="./img/logo.svg" alt="">
+                    <a href="#" class="mobileHide"><div class="header-logo">
+                        <img src="./img/logo.svg" alt="" class="logoImg">
                     </div></a>
 
-                    <div class="nav">
+                    <a href="#" class="desktopHide"><div class="header-logo-mobile">
+                        <img src="./img/mobileLogo.svg" alt="">
+                    </div></a>
+
+                    <a href="#" class="desktopHide"><div class="header-menu">
+                        <img src="./img/mobileMenu.svg" alt="">
+                    </div></a>
+
+                    <div class="nav mobileHide">
                         <a href="#" class="nav-item">Услуги</a>
                         <a href="#" class="nav-item">Команда</a>
                         <a href="#" class="nav-item">Отзывы</a>
                         <a href="#" class="nav-item">Новости</a>
                     </div>
 
-                    <a href="#" class="phone">
-                        <img src="./img/phone.svg" alt="">
+                    <a href="#" class="phone mobileHide">
+                        <img src="./img/phone.svg" alt="" class="phoneImg">
                         <span class="phoneNumber">
                                 +7 (123) 456 78 90
                         </span>
@@ -41,9 +49,10 @@
 
                     <div class="section1LeftBlock">
 
-                        <p class="section1P1">Adlook Cloud<br> — умеем решать ваши IT-цели</p>
+                        <p class="section1P1">Adlook Cloud<br>— умеем решать ваши IT-цели</p>
 
-                        <p class="section1P2">Наши специалисты оказывают профессиональные услуги в области digital<br> и cloud трансформации</p>
+                        <p class="section1P2 mobileHide">Наши специалисты оказывают профессиональные услуги в области digital<br> и cloud трансформации</p>
+                        <p class="section1P2 desktopHide">Наши специалисты оказывают<br> профессиональные услуги<br> в области digital и cloud<br> трансформации</p>
 
                         <div class="section1Buttons">
 
@@ -52,9 +61,9 @@
                             </div>
 
                             <a href="#" class="arrowImg">
-                                <span class="section1Button2">
-                                    <p class="allServices">Все услуги</p>
-                                </span>
+                                <!-- <span class="section1Button2"> -->
+                                <p class="allServices">Все услуги</p>
+                                <!-- </span> -->
 
                                 <img src="./img/arrow.svg" alt="" class="section1ArrowImg">
                             </a>
@@ -65,8 +74,12 @@
 
                     <div class="section1RightBlock">
 
-                        <div class="section1GirlImg">
-                            <img src="./img/girl-with-laptop.svg" alt="">
+                        <div class="section1GirlImg mobileHide">
+                            <img src="./img/girl-with-laptop.svg" alt="" class="section1GirlImg1 mobileHide">
+                        </div>
+
+                        <div class="section1GirlImg desktopHide">
+                            <img src="./img/girl-with-laptop-mobile.svg" alt="" class="desktopHide">
                         </div>
 
                     </div>
@@ -81,7 +94,8 @@
 
                             <img src="./img/section2Img1.svg" alt="" class="section2Img">
                             <p class="section2BigP">Выгодно</p>
-                            <p class="section2SmallP">Мы находим наиболее выгодные решения<br> для своих клиентов</p>
+                            <p class="section2SmallP mobileHide">Мы находим наиболее выгодные решения<br> для своих клиентов</p>
+                            <p class="section2SmallP desktopHide">Мы находим наиболее<br>выгодные решения<br> для своих клиентов</p>
 
                         </div>
 
@@ -97,7 +111,8 @@
 
                             <img src="./img/section2Img3.svg" alt="" class="section2Img">
                             <p class="section2BigP">С гарантией</p>
-                            <p class="section2SmallP">Индивидуальный<br> подход<br> к каждому клиенту</p>
+                            <p class="section2SmallP mobileHide">Индивидуальный<br> подход<br> к каждому клиенту</p>
+                            <p class="section2SmallP desktopHide">Индивидуальный подход<br>к каждому клиенту</p>
 
                         </div>
 
@@ -105,7 +120,8 @@
 
                             <img src="./img/section2Img4.svg" alt="" class="section2Img">
                             <p class="section2BigP">Качественно</p>
-                            <p class="section2SmallP">У нас трудятся только<br> грамотные<br> специалисты</p>
+                            <p class="section2SmallP mobileHide">У нас трудятся только<br> грамотные<br> специалисты</p>
+                            <p class="section2SmallP desktopHide">У нас трудятся только<br> грамотные специалисты</p>
 
                         </div>
 
@@ -128,7 +144,8 @@
 
                             <img src="./img/section4Img1.svg" alt="" class="section4Img">
                             <p class="section4BigP">Защита персональных данных</p>
-                            <p class="section4SmallP">Комплекс мероприятий<br> на противодействие<br> к несанкционированному доступу<br> к персональным данным</p>
+                            <p class="section4SmallP mobileHide">Комплекс мероприятий<br> на противодействие<br> к несанкционированному доступу<br> к персональным данным</p>
+                            <p class="section4SmallP desktopHide">Комплекс мероприятий на противодействие к несанкционированному доступу к персональным данным</p>
 
                         </div>
 
@@ -136,7 +153,8 @@
 
                             <img src="./img/section4Img2.svg" alt="" class="section4Img">
                             <p class="section4BigP">Виртуальные сервера vStack и VMware</p>
-                            <p class="section4SmallP">Быстрое развертование сервера<br> на ОС Windows server до 4 минут при минимальной стоимости от 1500 руб/мес (вкл. НДС)</p>
+                            <p class="section4SmallP mobileHide">Быстрое развертование сервера<br> на ОС Windows server до 4 минут при минимальной стоимости от 1500 руб/мес (вкл. НДС)</p>
+                            <p class="section4SmallP desktopHide">Быстрое развертование сервера на ОС Windows server до 4 минут при минимальной стоимости от 1500 руб/мес (вкл. НДС)</p>
 
                         </div>
 
@@ -191,10 +209,11 @@
                         <div class="section6LeftBlock">
 
                             <p class="section6BigP">Консалтинг</p>
-                            <p class="section6SmallP">Мы проводим полный цикл внедрения, оптимизации и сохранности данных. Этот подход мы назвали Customer Succes Care. Высококвалифицированные сотрудники<br> - Customer Succes Manager, помогут<br> снять нагрузку с непрофильной части бизнеса, например: перевод САРЕХ в ОРЕХ, позволит масштабировать бизнес в необходимый ему момент</p>
-                            
-                            <div class="section6Button">
-                                <a href="#" class="sendRequest2">Консультация</a>
+                            <p class="section6SmallP mobileHide">Мы проводим полный цикл внедрения, оптимизации и сохранности данных. Этот подход мы назвали Customer Succes Care. Высококвалифицированные сотрудники<br> - Customer Succes Manager, помогут<br> снять нагрузку с непрофильной части бизнеса, например: перевод САРЕХ в ОРЕХ, позволит масштабировать бизнес в необходимый ему момент</p>
+                            <p class="section6SmallP desktopHide">Мы проводим полный цикл внедрения, оптимизации и сохранности данных. Этот подход мы назвали Customer Succes Care. Высококвалифицированные сотрудники - Customer Succes Manager, помогут снять нагрузку с непрофильной части бизнеса, например: перевод САРЕХ в ОРЕХ, позволит масштабировать бизнес в необходимый ему момент</p>
+
+                            <div class="section6Button mobileHide">
+                                <a href="#" class="sendRequest2 mobileHide">Консультация</a>
                             </div>
                             
                         </div>
@@ -220,6 +239,7 @@
                         <div class="section8Block">
 
                             <img src="./img/section8Img1.svg" alt="" class="section8Img">
+                            <img src="./img/section8MobileImg1.svg" alt="" class="section8MobileImg">
                             <p class="section8BigP">Кирилл Минин</p>
                             <p class="section8SmallP">Руководитель</p>
 
@@ -228,6 +248,7 @@
                         <div class="section8Block">
 
                             <img src="./img/section8Img2.svg" alt="" class="section8Img">
+                            <img src="./img/section8MobileImg2.svg" alt="" class="section8MobileImg">
                             <p class="section8BigP">Марк Давидов</p>
                             <p class="section8SmallP">Программист</p>
 
@@ -236,6 +257,7 @@
                         <div class="section8Block">
 
                             <img src="./img/section8Img3.svg" alt="" class="section8Img">
+                            <img src="./img/section8MobileImg3.svg" alt="" class="section8MobileImg">
                             <p class="section8BigP">Инесса Иванова</p>
                             <p class="section8SmallP">Менеджер</p>
 
@@ -244,6 +266,7 @@
                         <div class="section8Block">
 
                             <img src="./img/section8Img4.svg" alt="" class="section8Img">
+                            <img src="./img/section8MobileImg4.svg" alt="" class="section8MobileImg">
                             <p class="section8BigP">Андрей Петров</p>
                             <p class="section8SmallP">CEO</p>
 
@@ -257,7 +280,8 @@
 
                     <div class="section9Block">
 
-                        <p class="section9BigP">Вы всё ещё думаете?<br> Просто попробуйте</p>
+                        <p class="section9BigP mobileHide">Вы всё ещё думаете?<br> Просто попробуйте</p>
+                        <p class="section9BigP desktopHide">Вы всё ещё думаете?<br>Просто<br>попробуйте</p>
                         
                         <div class="section9Button">
                             <a href="#" class="sendRequest2">Оставить заявку</a>
@@ -286,6 +310,7 @@
                             </div>
 
                             <img src="./img/section11Img1.svg" alt="" class="section11Img">
+                            <img src="./img/section11MobileImg1.svg" alt="" class="section11MobileImg">
                             
                             <p class="section11SmallP">Блок появляется в момент запуска рекламы и следует за прокруткой страницы. Никакого звука, прогрузок и чёрных окон</p>
 
@@ -304,6 +329,7 @@
                             </div>
 
                             <img src="./img/section11Img2.svg" alt="" class="section11Img">
+                            <img src="./img/section11MobileImg2.svg" alt="" class="section11MobileImg">
                             
                             <p class="section11SmallP">Гибкий формат рекламы, позволяет отобразить видео и баннерную рекламу в одном контейнере. Разработан для повышения дохода</p>
 
@@ -322,6 +348,7 @@
                             </div>
 
                             <img src="./img/section11Img3.svg" alt="" class="section11Img">
+                            <img src="./img/section11MobileImg3.svg" alt="" class="section11MobileImg">
                             
                             <p class="section11SmallP">Новый формат рекламы, который размещается поверх плеера с видеоконтентом. Для большей монетизации</p>
 
@@ -405,7 +432,8 @@
                         <div class="footerRightBlock">
 
                             <a href="#" class="footerBigP"><p class="footerBigP">+7 (123) 456 78 90</p></a>
-                            <a href="#" class="footerSmallP"><p class="footerSmallP">г. Москва  Ул. Тверская д. 1</p></a>
+                            <a href="#" class="footerSmallP mobileHide"><p class="footerSmallP">г. Москва  Ул. Тверская д. 1</p></a>
+                            <a href="#" class="footerSmallP desktopHide"><p class="footerSmallP">г. Москва<br> Ул. Тверская д. 1</p></a>
                             <a href="#" class="footerSmallP"><p class="footerSmallP">Skype</p></a>
                             <a href="#" class="footerSmallP"><p class="footerSmallP">mail@mail.ru</p></a>
 
